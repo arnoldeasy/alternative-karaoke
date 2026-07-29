@@ -3,20 +3,14 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.9.1/firebas
 import { getFirestore } from "https://www.gstatic.com/firebasejs/11.9.1/firebase-firestore.js";
 
 const firebaseConfig = {
-
-apiKey:"YOUR_API_KEY",
-
-authDomain:"YOUR_PROJECT.firebaseapp.com",
-
-projectId:"YOUR_PROJECT_ID",
-
-storageBucket:"YOUR_PROJECT.appspot.com",
-
-messagingSenderId:"123456789",
-
-appId:"YOUR_APP_ID"
-
+  apiKey: "AIzaSyCt6X01DRrsMMCh5fV5LHF3eVDFyAyEmhk",
+  authDomain: "alternative-karaoke.firebaseapp.com",
+  projectId: "alternative-karaoke",
+  storageBucket: "alternative-karaoke.firebasestorage.app",
+  messagingSenderId: "213738414009",
+  appId: "1:213738414009:web:8eaff574d81d735cba2068"
 };
+
 
 const app=initializeApp(firebaseConfig);
 
